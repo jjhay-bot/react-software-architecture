@@ -37,7 +37,7 @@ app.get("/*", (req, res) => {
 
       return res.send(
         data.replace('<div id="root"></div>',  `<div id="root">${reactApp}</div>`)
-            .replace('{{ styles }}', sheet.getStyleTags())
+            // .replace('{{ styles }}', sheet.getStyleTags())
       )
     })
 });

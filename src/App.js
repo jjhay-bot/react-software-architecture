@@ -13,7 +13,7 @@ const BigGreenHeading = styled.h1`
 const App = () => {
 	return (
 		<>
-			<BigGreenHeading>Server-Side Rendering Example</BigGreenHeading>
+			<BigGreenHeading>>>>> Server-Side Rendering Example</BigGreenHeading>
 			<ul>
 				<li>
 					<Link to="/">Home</Link>
